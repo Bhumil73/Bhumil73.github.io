@@ -1,18 +1,17 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
-import Box from '@material-ui/core/Box';
+import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile";
+import React from "react";
 
 function App() {
     return (
-            <div className="App">
-                <Box className="box">
-                    <div className="container-lg"><Navbar/></div>
-                    <Profile/>
-                </Box>
-
+        <div >
+            <Navbar/>
+            <div className="profile">
+                <Profile/>
             </div>
+        </div>
     );
 }
 
