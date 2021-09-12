@@ -1,7 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar/Navbar";
-import Profile from "./components/Profile";
+import Profile from "./components/Navbar/Profile";
 import React from "react";
 
 function App() {
